@@ -5,5 +5,5 @@ require 'authoreyes/authorization'
 require 'authoreyes/railtie'
 
 module Authoreyes
-  autoload ::Helpers 'authoreyes/helpers'
+  autoload ::Helpers, 'authoreyes/helpers'
 end
